@@ -40,7 +40,7 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
       toFileButton.addActionListener( this );
       toFileButton.setPreferredSize( new Dimension( 150, 27 ) );
       toFileButton.setToolTipText( "Convert some file(s) in a folder into a single file" );
-      toFileButton.setForeground( Color.blue );
+      toFileButton.setForeground( new Color(94, 240, 41) );
       toFileButton.setBackground( Color.black );
       container.add( toFileButton );
 
@@ -48,7 +48,7 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
       toFolderButton.addActionListener( this );
       toFolderButton.setPreferredSize( new Dimension( 150, 27 ) );
       toFolderButton.setToolTipText( "Convert a previously created container file into several file(s)" );
-      toFolderButton.setForeground( Color.blue );
+      toFolderButton.setForeground( new Color(94, 240, 41) );
       toFolderButton.setBackground( Color.black );
       container.add( toFolderButton );
 
@@ -56,7 +56,7 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
       splitButton.addActionListener( this );
       splitButton.setPreferredSize( new Dimension( 150, 27 ) );
       splitButton.setToolTipText( "Split a file into some small files for portability" );
-      splitButton.setForeground( Color.orange );
+      splitButton.setForeground( new Color(204, 202, 68)  );
       splitButton.setBackground( Color.black );
       container.add( splitButton );
 
@@ -64,14 +64,14 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
       combineButton.addActionListener( this );
       combineButton.setPreferredSize( new Dimension( 150, 27 ) );
       combineButton.setToolTipText( "Combine some previously splitted file to make a single file" );
-      combineButton.setForeground( Color.orange );
+      combineButton.setForeground( new Color(204, 202, 68) );
       combineButton.setBackground( Color.black );
       container.add( combineButton );
 
       helpButton = new JButton( "Help/About" );
       helpButton.addActionListener( this );
       helpButton.setPreferredSize( new Dimension( 150, 27 ) );
-      helpButton.setForeground( Color.magenta );
+      helpButton.setForeground( new Color(163, 167, 240) );
       helpButton.setBackground( Color.black );
       container.add( helpButton );
 
@@ -122,7 +122,7 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
    public void showHelp()
    {
       String helpText = "File Utility Plus v1.1( 7:48 PM 4/24/2006 MON)\n"
-         + "Programmed by Wasiqul Islam( e_mail: wasiqul_islam@yahoo.com )\n"
+         + "Programmed by Wasiqul Islam (e-mail: islam.wasiqul@gmail.com )\n"
          + "This program has four options:\n\n1) CONVERT TO FILE: You can convert a folder and all of its contents into a single file.First select the folder; then a list will show you all the file names of that folder;click OK and then select the output file.\n[ Note: The folder size should not be more than 3.9 GB( Giga Byte ) long in a FAT or FAT32 file system. If it is more than that you have to split the folder contents into two or more folders. This is because some file system does not support creating a large file ( e.g. 5GB etc.). You can use NTFS to create a large file greater than 4GB. ]"
          + "\n\n2) CONVERT TO FOLDER: This is reverse operation of \'Convert to file\'. Just select the source file first and then select a destination folder."
          + "\n\n3) SPLIT: You can split a file into two or more files. This is useful when you consider saving file in a backup device which can contain data less than the size of that file. To do this, first select the source file; then type the size of a destination file and then its name; repeat the operation until all source file data is written. When splitting always remember the splitting sequence."
@@ -287,7 +287,7 @@ public class FileUtilityPlus extends JFrame implements ActionListener, WindowLis
 
     public void windowClosing(WindowEvent e)
    {
-      int result = JOptionPane.showConfirmDialog( this, "Really Want to Exit?", "Confirmation", JOptionPane.YES_NO_OPTION );
+      int result = JOptionPane.showConfirmDialog( this, "Do you want to exit?", "Confirmation", JOptionPane.YES_NO_OPTION );
       if( result == JOptionPane.YES_OPTION )
       {
          System.exit( 0 );

@@ -51,7 +51,7 @@ public class ToFolder extends Thread implements Sleepable
             result = fileChooser.showDialog( ref, "Open" );
             if( result != JFileChooser.APPROVE_OPTION )
             {
-               result = JOptionPane.showConfirmDialog( ref, "Really want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
+               result = JOptionPane.showConfirmDialog( ref, "Do you want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
                if( result == JOptionPane.YES_OPTION )
                {
                   return;
@@ -145,7 +145,7 @@ public class ToFolder extends Thread implements Sleepable
             result = fileChooser.showDialog( ref, "Save In(Folder)" );
             if( result != JFileChooser.APPROVE_OPTION )
             {
-               result = JOptionPane.showConfirmDialog( ref, "Really want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
+               result = JOptionPane.showConfirmDialog( ref, "Do you want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
                if( result == JOptionPane.YES_OPTION )
                {
                   return;
@@ -218,7 +218,7 @@ public class ToFolder extends Thread implements Sleepable
                      result = fileChooser.showDialog( ref, "Select next file" );
                      if( result != JFileChooser.APPROVE_OPTION )
                      {
-                        result = JOptionPane.showConfirmDialog( ref, "Really want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
+                        result = JOptionPane.showConfirmDialog( ref, "Do you want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
                         if( result == JOptionPane.YES_OPTION )
                         {
                            return;
@@ -326,7 +326,7 @@ public class ToFolder extends Thread implements Sleepable
                      result = fileChooser.showDialog( ref, "Select next file" );
                      if( result != JFileChooser.APPROVE_OPTION )
                      {
-                        result = JOptionPane.showConfirmDialog( ref, "Really want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
+                        result = JOptionPane.showConfirmDialog( ref, "Do you want to cancel?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE );
                         if( result == JOptionPane.YES_OPTION )
                         {
                            return;
