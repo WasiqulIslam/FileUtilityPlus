@@ -1,6 +1,6 @@
 # File Utility Plus v1.1
 
-File Utility Plus v1.0 has is a very useful tool. 
+File Utility Plus v1.0 is a very useful tool. 
 To run it simply download the "FileUtilityPlus.zip" zip file and extract and run (this works in Windows only). No setup is required for this.
 
 ![image](https://github.com/user-attachments/assets/30603c9f-2d14-4989-a7cd-9c603ed4cfcb)
