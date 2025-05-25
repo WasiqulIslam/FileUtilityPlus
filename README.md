@@ -16,7 +16,6 @@ Note: The folder size should not be more than 3.9 GB( Giga Byte ) long in a FAT 
 
 4) COMBINE: This is reverse operation of 'Split'. To combine some files, first select the destination file and then repeatedly add some files to the destination file; a confirmation will let you stop your operation.  When combining always remember the previous splitting sequence.
 
-
 An example:
 
 Suppose that you have a folder named "Data" and its size is about 2 GB long. You want to CD-write the files but a CD can contain about 650 MB data.
@@ -31,13 +30,10 @@ Now You can write these four files into 4 CDs.
 You can retrieve all the data from the 4 CDs in 2 ways.
 
 (1)
-
    (a) By combining the four files into a single file named "All.data"( using "Combine" button ). In this case you have to combine the files sequentially. That is "Part1.data", then "Part2.data" and so on. 
-
    (b) Then you can use "To Folder" button of this software to retrieve all data from the file "All.data".
 
-
-(2)The second way has only one step. Use the "To Folder" button and select the file "Part1.data" as source. After a while a "Select Next File" prompt will allow you to select the second file ( "Part2.data" ). This way after you have selected all the four data files sequentially the operation completes. This is a shortcut way which will be very useful to you.
-
+(2)
+The second way has only one step. Use the "To Folder" button and select the file "Part1.data" as source. After a while a "Select Next File" prompt will allow you to select the second file ( "Part2.data" ). This way after you have selected all the four data files sequentially the operation completes. This is a shortcut way which will be very useful to you.
 
 By the way, you can exclude any computer virus files from the archive files when it is archiving( only if you know the file name; e.g. "Desktop.ini", "WinZipTmp.exe", "Folder.htt", "Temp.htt" etc. ). To search any file named "Desktop.ini" you have to type "*\desktop.ini" in the search keyword. You can exclude any viruses by searching.
