@@ -25,7 +25,7 @@ In this case you have to convert the folder and all of its contents into a singl
 Now Split the file "All.data" into "Part1.data", "Part2.data", "Part3.data", "Part4.data" files.
 To create these four files use the length ( 649 X 1024 X 1024 ) bytes  for all the four files.
 
-Now You can write these four files into 4 CDs.
+Now you can write these four files into 4 CDs.
 
 You can retrieve all the data from the 4 CDs in 2 ways.
 
